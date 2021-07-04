@@ -38,7 +38,7 @@ class MainActivity :AppCompatActivity(R.layout.activity_main), View.OnClickListe
        }
     }
 
-  override fun onActivityResult(
+    override fun onActivityResult(
         requestCode: Int,
         resultCode: Int,
         data: Intent?
@@ -64,3 +64,5 @@ class MainActivity :AppCompatActivity(R.layout.activity_main), View.OnClickListe
         }
     }
 }
+
+
